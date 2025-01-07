@@ -79,7 +79,7 @@ void ajouter_ligne(Reseau* reseau) {
 
     // Mise à jour du compteur de lignes
     reseau->nb_lignes++;
-    printf("Ligne ajoutée avec succès !\n");
+    printf("Ligne ajouté avec succès !\n");
 }
 
 // Fonction pour afficher les lignes
