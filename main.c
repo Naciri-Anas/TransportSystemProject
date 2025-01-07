@@ -86,6 +86,6 @@ void ajouter_ligne(Reseau* reseau) {
 void afficher_lignes(Reseau reseau) {
     printf("\n--- Liste des lignes ---\n");
     for (int i = 0; i < reseau.nb_lignes; i++) {
-        printf("%d. %s\n", i + 1, reseau.lignes[j].nom);
+        printf("%d. %s\n", i + 1, reseau.lignes[i].nom);
     }
 }
